@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="" class="form-group" onsubmit="return check()">
+        <h2>Add products</h2>
+        <p>
+          <label for="">Product's name:</label>
+          <input type="text" id="product_name" class="form-control" />
+          <span id="error_proname" class="error_text"></span>
+        </p>
+        <p>
+          <label for="">Quantity:</label>
+          <input type="number" id="quantity" min="0" class="form-control" />
+          <span id="error_quantity" class="error_text"></span>
+        </p>
+        <p>
+          <label for="">Unit price:</label>
+          <input type="text" id="price" class="form-control" />
+          <span id="error_price" class="error_text"></span>
+        </p>
+      </form>
+      <div class="button">
+        <button class="form-button" onclick="add()">Lưu</button>
+        <button class="form-button">Đóng lại</button>
+      </div>
+    </div>
+    <div class="table_cart">
+      <h2>Your shopping cart</h2>
+      <table border="1" id="cart">
+        <tr>
+          <th>Product name</th>
+          <th>Unit price</th>
+          <th>Quantity</th>
+          <th>Into money</th>
+          <th>Operation</th>
+        </tr>
+        <tr>
+          <th colspan="4" style="background-color: lightcoral">Total money</th>
+          <td><span id="total"></span></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>

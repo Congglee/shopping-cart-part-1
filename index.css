@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.form {
+  float: left;
+  margin: 109px 120px;
+}
+
+.table_cart {
+  float: right;
+  margin: 55px 180px 0 0;
+}
+
+.table_cart h2 {
+    text-align: center;
+    font-size: 28px;
+    color: lightseagreen;
+}
+
+.form-group {
+    width: 400px;
+    background-color: whitesmoke;
+    padding: 20px 40px;
+    border: solid 2px black;
+}
+
+.form-group h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0a0aed;
+}
+
+.form-group p {
+    width: 410px;
+}
+
+.form-control {
+    width: 385px;
+    padding: 5px;
+    border: solid 1px lightslategray;
+}
+
+.button {
+    text-align: center;
+}
+
+.form-button {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: wheat;
+    color: crimson;
+}
+
+.error_alert {
+    width: 385px;
+    padding: 5px;
+    background-color: yellow;
+    border: solid 1px red;
+}
+
+.success_alert {
+    width: 385px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: solid 2px lightgreen;
+}
+
+.error_text {
+    font-size: 15px;
+    color: red;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #04aa6d;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.delete_button {
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: red;
+    background-color: lightgreen;
+    cursor: pointer;
+    font-weight: bold;
+}
